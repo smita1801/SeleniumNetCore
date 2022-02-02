@@ -24,6 +24,7 @@ namespace SeleniumNetCore
             Assert.IsTrue(title == "Google");
             Driver.Close();
             Driver.Quit();
+            Console.WriteLine("Driver is closed");
         }
     }
 }
